@@ -15,6 +15,7 @@ namespace CCGDeveloper.Classes
         private List<Detail> addresses = new List<Detail>();
 
         [JsonProperty("addresses")]
+        [XmlElement("addresses")]
         public List<Detail> Addresses
         {
            get { return addresses; }

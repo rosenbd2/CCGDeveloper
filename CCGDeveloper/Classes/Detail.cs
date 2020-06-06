@@ -15,12 +15,14 @@ namespace CCGDeveloper.Classes
         private Address address = new Address();
 
         [JsonProperty("name")]
+        [XmlElement("name")]
         public string Name
         {
             get { return name; }
             set { name = value; }
         }
 
+        [XmlElement("address")]
         [JsonProperty("address")]
         public Address TheAddress
         {
@@ -36,6 +38,7 @@ namespace CCGDeveloper.Classes
         private string line2;
 
         [JsonProperty("line1")]
+        [XmlElement("line1")]
         public string Line1
         {
             get { return line1; }
@@ -43,6 +46,7 @@ namespace CCGDeveloper.Classes
         }
 
         [JsonProperty("line2")]
+        [XmlElement("line2")]
         public string Line2
         {
             get { return line2; }

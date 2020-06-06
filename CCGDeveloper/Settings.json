@@ -1,5 +1,7 @@
 {
   "CSVSourceFile": "D:\\Daniel\\OneDrive\\Work\\Documents\\Interviews\\CCG\\CCGDeveloper\\SourceFiles\\input.csv",
   "JSONTargetFile": "D:\\Daniel\\OneDrive\\Work\\Documents\\Interviews\\CCG\\CCGDeveloper\\SourceFiles\\output.json",
-  "XMLTargetFile": "D:\\Daniel\\OneDrive\\Work\\Documents\\Interviews\\CCG\\CCGDeveloper\\SourceFiles\\output.xml"
+  "JSONSourceFile": "D:\\Daniel\\OneDrive\\Work\\Documents\\Interviews\\CCG\\CCGDeveloper\\SourceFiles\\input.json",
+  "XMLTargetFile": "D:\\Daniel\\OneDrive\\Work\\Documents\\Interviews\\CCG\\CCGDeveloper\\SourceFiles\\output.xml",
+  "XMLSourceFile": "D:\\Daniel\\OneDrive\\Work\\Documents\\Interviews\\CCG\\CCGDeveloper\\SourceFiles\\input.xml"
 }

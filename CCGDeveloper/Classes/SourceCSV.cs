@@ -9,21 +9,18 @@ using System.Text;
 
 namespace CCGDeveloper.Classes
 {
-    class SourceCSV : ISource
+    class SourceCSV : Source
     {
-        private string sourceFilePath;
-
         private string[] headingNames;
         private string[] headingGroupNames;
 
-        public SourceCSV()
+        public SourceCSV() : base()
         {
-            var settings = new Settings();
             sourceFilePath = settings.Configuration.GetSection("CSVSourceFile").Value;
         }
 
         // Read the CSV file and convert it into a Document
-        public Document ReadData()
+        public override Document ReadData()
         {
             var theDocument = new Document();
             using (TextFieldParser parser = new TextFieldParser(sourceFilePath))

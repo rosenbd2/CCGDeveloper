@@ -43,23 +43,5 @@ namespace CCGDeveloper.Classes
                 return false;
             }
         }
-
-        public string ToXML()
-        {
-            using (var stringwriter = new System.IO.StringWriter())
-            {
-                var serializer = new XmlSerializer(_data.GetType());
-                serializer.Serialize(stringwriter, _data);
-                return stringwriter.ToString();
-            }
-        }
-        public Document ReadXMLIntoDocument(string xmlText) 
-        {
-            using (var stringReader = new System.IO.StringReader(xmlText))
-            {
-                var serializer = new XmlSerializer(_data.GetType());
-                return serializer.Deserialize(stringReader) as Document;
-            }
-        }
     }
 }
