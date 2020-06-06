@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Addresses>
+    <Detail>
+      <Name>Dave</Name>
+      <TheAddress>
+        <Line1>Street</Line1>
+        <Line2>Town</Line2>
+      </TheAddress>
+    </Detail>
+    <Detail>
+      <Name>InkyPinky</Name>
+      <TheAddress>
+        <Line1>Road</Line1>
+        <Line2>City</Line2>
+      </TheAddress>
+    </Detail>
+  </Addresses>
+</Document>

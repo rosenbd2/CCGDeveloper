@@ -12,8 +12,13 @@ namespace CCGDeveloper
         {
             var source = new SourceCSV();                               // Create an source file of type CSV
             var document = source.ReadData();                           // Create a common document from data in CSV
-            var output = new OutputJSON(document);                      // Create an output file of type JSON
-            output.SaveDocument();                                      // Save document to Output file
+
+            var jsonOutput = new OutputJSON(document);                      // Create an output file of type JSON
+            jsonOutput.SaveDocument();                                      // Save document to Output file
+
+            var xmlOutput = new OutputXML(document);                      // Create an output file of type XML
+            xmlOutput.SaveDocument();                                      // Save document to Output file
+
             Console.WriteLine();
         }
     }
