@@ -1,3 +1,4 @@
 {
-  "CSVSourceFolder": ""
+  "CSVSourceFile": "D:\\Daniel\\OneDrive\\Work\\Documents\\Interviews\\CCG\\CCGDeveloper\\SourceFiles\\inputCSV.csv",
+  "JSONTargetFile": "D:\\Daniel\\OneDrive\\Work\\Documents\\Interviews\\CCG\\CCGDeveloper\\SourceFiles\\outputJSON.csv"
 }
