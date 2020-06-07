@@ -14,7 +14,6 @@ namespace CCGDeveloper.Classes
     {
         public SourceXML():base()
         {
-            var settings = new Settings();
             sourceFilePath = settings.Configuration.GetSection("XMLSourceFile").Value;
         }
 

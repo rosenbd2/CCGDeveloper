@@ -15,7 +15,6 @@ namespace CCGDeveloper.Classes
     {
         public SourceJSON():base()
         {
-            var settings = new Settings();
             sourceFilePath = settings.Configuration.GetSection("JSONSourceFile").Value;
         }
 
